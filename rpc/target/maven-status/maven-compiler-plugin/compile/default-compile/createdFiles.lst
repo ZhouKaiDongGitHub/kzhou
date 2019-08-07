@@ -1,0 +1,6 @@
+com\eis\rpc\provider\service\Calculator.class
+com\eis\rpc\provider\service\CalculatorImpl.class
+com\eis\rpc\reuqest\CalculateRpcRequest.class
+com\eis\rpc\comsumer\service\CalculatorRemoteImpl.class
+com\eis\rpc\provider\app\ProviderApp.class
+com\eis\rpc\comsumer\app\ComsumerApp.class

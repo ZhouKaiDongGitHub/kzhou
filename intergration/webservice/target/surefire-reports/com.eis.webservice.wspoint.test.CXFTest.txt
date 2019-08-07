@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: com.eis.webservice.wspoint.test.CXFTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 4.517 s <<< FAILURE! - in com.eis.webservice.wspoint.test.CXFTest
+test1(com.eis.webservice.wspoint.test.CXFTest)  Time elapsed: 1.483 s  <<< ERROR!
+javax.ws.rs.ProcessingException: java.net.ConnectException: ConnectException invoking http://localhost:8085/webservice_core_war/webservice/userService/user: Connection refused: connect
+	at com.eis.webservice.wspoint.test.CXFTest.test1(CXFTest.java:13)
+Caused by: java.net.ConnectException: ConnectException invoking http://localhost:8085/webservice_core_war/webservice/userService/user: Connection refused: connect
+	at com.eis.webservice.wspoint.test.CXFTest.test1(CXFTest.java:13)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.eis.webservice.wspoint.test.CXFTest.test1(CXFTest.java:13)
+
+test2(com.eis.webservice.wspoint.test.CXFTest)  Time elapsed: 1.001 s  <<< ERROR!
+javax.ws.rs.ProcessingException: java.net.ConnectException: ConnectException invoking http://localhost:8085/webservice_core_war/webservice/userService/user?id=11: Connection refused: connect
+	at com.eis.webservice.wspoint.test.CXFTest.test2(CXFTest.java:19)
+Caused by: java.net.ConnectException: ConnectException invoking http://localhost:8085/webservice_core_war/webservice/userService/user?id=11: Connection refused: connect
+	at com.eis.webservice.wspoint.test.CXFTest.test2(CXFTest.java:19)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.eis.webservice.wspoint.test.CXFTest.test2(CXFTest.java:19)
+
+test3(com.eis.webservice.wspoint.test.CXFTest)  Time elapsed: 0.999 s  <<< ERROR!
+javax.ws.rs.ProcessingException: java.net.ConnectException: ConnectException invoking http://localhost:8085/webservice_core_war/webservice/userService/user: Connection refused: connect
+	at com.eis.webservice.wspoint.test.CXFTest.test3(CXFTest.java:25)
+Caused by: java.net.ConnectException: ConnectException invoking http://localhost:8085/webservice_core_war/webservice/userService/user: Connection refused: connect
+	at com.eis.webservice.wspoint.test.CXFTest.test3(CXFTest.java:25)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.eis.webservice.wspoint.test.CXFTest.test3(CXFTest.java:25)
+
+test4(com.eis.webservice.wspoint.test.CXFTest)  Time elapsed: 1.007 s  <<< ERROR!
+javax.ws.rs.ProcessingException: java.net.ConnectException: ConnectException invoking http://localhost:8085/webservice_core_war/webservice/userService/user: Connection refused: connect
+	at com.eis.webservice.wspoint.test.CXFTest.test4(CXFTest.java:31)
+Caused by: java.net.ConnectException: ConnectException invoking http://localhost:8085/webservice_core_war/webservice/userService/user: Connection refused: connect
+	at com.eis.webservice.wspoint.test.CXFTest.test4(CXFTest.java:31)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.eis.webservice.wspoint.test.CXFTest.test4(CXFTest.java:31)
+

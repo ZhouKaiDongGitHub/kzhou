@@ -1,0 +1,12 @@
+com\eis\webservice\wspoint\GetMobileCodeInfoResponse.class
+com\eis\webservice\wspoint\MobileCodeWSSoap.class
+com\eis\webservice\cxf\service\UserService.class
+com\eis\webservice\wspoint\GetDatabaseInfo.class
+com\eis\webservice\cxf\service\UserServiceImpl.class
+com\eis\webservice\wspoint\ArrayOfString.class
+com\eis\webservice\wspoint\MobileCodeWS.class
+com\eis\webservice\wspoint\GetDatabaseInfoResponse.class
+com\eis\webservice\wspoint\GetMobileCodeInfo.class
+com\eis\webservice\wspoint\package-info.class
+com\eis\webservice\cxf\domain\User.class
+com\eis\webservice\wspoint\ObjectFactory.class

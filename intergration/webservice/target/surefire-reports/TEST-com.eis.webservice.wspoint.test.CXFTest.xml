@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.eis.webservice.wspoint.test.CXFTest" time="4.517" tests="4" errors="4" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\Project\intergration\webservice\target\test-classes;D:\Project\intergration\webservice\target\classes;D:\Users\kzhou\Propersity\org\apache\cxf\cxf-rt-frontend-jaxrs\3.0.1\cxf-rt-frontend-jaxrs-3.0.1.jar;D:\Users\kzhou\Propersity\org\apache\cxf\cxf-core\3.0.1\cxf-core-3.0.1.jar;D:\Users\kzhou\Propersity\org\codehaus\woodstox\woodstox-core-asl\4.4.0\woodstox-core-asl-4.4.0.jar;D:\Users\kzhou\Propersity\org\codehaus\woodstox\stax2-api\3.1.4\stax2-api-3.1.4.jar;D:\Users\kzhou\Propersity\org\apache\ws\xmlschema\xmlschema-core\2.1.0\xmlschema-core-2.1.0.jar;D:\Users\kzhou\Propersity\javax\ws\rs\javax.ws.rs-api\2.0\javax.ws.rs-api-2.0.jar;D:\Users\kzhou\Propersity\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar;D:\Users\kzhou\Propersity\org\apache\cxf\cxf-rt-transports-http\3.0.1\cxf-rt-transports-http-3.0.1.jar;D:\Users\kzhou\Propersity\org\apache\cxf\cxf-rt-rs-extension-providers\3.0.1\cxf-rt-rs-extension-providers-3.0.1.jar;D:\Users\kzhou\Propersity\org\codehaus\jettison\jettison\1.3.7\jettison-1.3.7.jar;D:\Users\kzhou\Propersity\stax\stax-api\1.0.1\stax-api-1.0.1.jar;D:\Users\kzhou\Propersity\org\springframework\spring-context\4.1.7.RELEASE\spring-context-4.1.7.RELEASE.jar;D:\Users\kzhou\Propersity\org\springframework\spring-aop\4.1.7.RELEASE\spring-aop-4.1.7.RELEASE.jar;D:\Users\kzhou\Propersity\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;D:\Users\kzhou\Propersity\org\springframework\spring-beans\4.1.7.RELEASE\spring-beans-4.1.7.RELEASE.jar;D:\Users\kzhou\Propersity\org\springframework\spring-core\4.1.7.RELEASE\spring-core-4.1.7.RELEASE.jar;D:\Users\kzhou\Propersity\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\Users\kzhou\Propersity\org\springframework\spring-expression\4.1.7.RELEASE\spring-expression-4.1.7.RELEASE.jar;D:\Users\kzhou\Propersity\org\springframework\spring-web\4.1.7.RELEASE\spring-web-4.1.7.RELEASE.jar;D:\Users\kzhou\Propersity\org\apache\cxf\cxf-rt-rs-client\3.0.1\cxf-rt-rs-client-3.0.1.jar;D:\Users\kzhou\Propersity\junit\junit\4.11\junit-4.11.jar;D:\Users\kzhou\Propersity\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="user.country.format" value="CN"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\kzhou\AppData\Local\Temp\surefire1823008081514156744\surefirebooter3995519959052106786.jar C:\Users\kzhou\AppData\Local\Temp\surefire1823008081514156744 2019-04-18T12-01-15_925-jvmRun1 surefire1729943622780715041tmp surefire_06003828967270569927tmp"/>
+    <property name="surefire.test.class.path" value="D:\Project\intergration\webservice\target\test-classes;D:\Project\intergration\webservice\target\classes;D:\Users\kzhou\Propersity\org\apache\cxf\cxf-rt-frontend-jaxrs\3.0.1\cxf-rt-frontend-jaxrs-3.0.1.jar;D:\Users\kzhou\Propersity\org\apache\cxf\cxf-core\3.0.1\cxf-core-3.0.1.jar;D:\Users\kzhou\Propersity\org\codehaus\woodstox\woodstox-core-asl\4.4.0\woodstox-core-asl-4.4.0.jar;D:\Users\kzhou\Propersity\org\codehaus\woodstox\stax2-api\3.1.4\stax2-api-3.1.4.jar;D:\Users\kzhou\Propersity\org\apache\ws\xmlschema\xmlschema-core\2.1.0\xmlschema-core-2.1.0.jar;D:\Users\kzhou\Propersity\javax\ws\rs\javax.ws.rs-api\2.0\javax.ws.rs-api-2.0.jar;D:\Users\kzhou\Propersity\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar;D:\Users\kzhou\Propersity\org\apache\cxf\cxf-rt-transports-http\3.0.1\cxf-rt-transports-http-3.0.1.jar;D:\Users\kzhou\Propersity\org\apache\cxf\cxf-rt-rs-extension-providers\3.0.1\cxf-rt-rs-extension-providers-3.0.1.jar;D:\Users\kzhou\Propersity\org\codehaus\jettison\jettison\1.3.7\jettison-1.3.7.jar;D:\Users\kzhou\Propersity\stax\stax-api\1.0.1\stax-api-1.0.1.jar;D:\Users\kzhou\Propersity\org\springframework\spring-context\4.1.7.RELEASE\spring-context-4.1.7.RELEASE.jar;D:\Users\kzhou\Propersity\org\springframework\spring-aop\4.1.7.RELEASE\spring-aop-4.1.7.RELEASE.jar;D:\Users\kzhou\Propersity\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;D:\Users\kzhou\Propersity\org\springframework\spring-beans\4.1.7.RELEASE\spring-beans-4.1.7.RELEASE.jar;D:\Users\kzhou\Propersity\org\springframework\spring-core\4.1.7.RELEASE\spring-core-4.1.7.RELEASE.jar;D:\Users\kzhou\Propersity\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\Users\kzhou\Propersity\org\springframework\spring-expression\4.1.7.RELEASE\spring-expression-4.1.7.RELEASE.jar;D:\Users\kzhou\Propersity\org\springframework\spring-web\4.1.7.RELEASE\spring-web-4.1.7.RELEASE.jar;D:\Users\kzhou\Propersity\org\apache\cxf\cxf-rt-rs-client\3.0.1\cxf-rt-rs-client-3.0.1.jar;D:\Users\kzhou\Propersity\junit\junit\4.11\junit-4.11.jar;D:\Users\kzhou\Propersity\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\kzhou"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="D:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="basedir" value="D:\Project\intergration\webservice"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\kzhou\AppData\Local\Temp\surefire1823008081514156744\surefirebooter3995519959052106786.jar"/>
+    <property name="sun.boot.class.path" value="D:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;D:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;D:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;D:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;D:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;D:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;D:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;D:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="user.name" value="kzhou"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.1"/>
+    <property name="java.endorsed.dirs" value="D:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\Users\kzhou\Propersity"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\kzhou\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="user.dir" value="D:\Project\intergration\webservice"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="user.language.format" value="zh"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.library.path" value="D:\Program Files\Java\jdk1.8.0_121\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;D:\Program Files\Java\jdk1.8.0_121\bin;D:\Program Files\Java\jdk1.8.0_121\jre\bin;D:\Program Files\apache-maven-3.2.3\bin;C:\Program Files\TortoiseHg\;D:\apache-ant-1.9.13\bin;C:\Windows\System32;D:\SoftWare\NodeJs\;C:\Users\kzhou\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.ext.dirs" value="D:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="test1" classname="com.eis.webservice.wspoint.test.CXFTest" time="1.483">
+    <error message="java.net.ConnectException: ConnectException invoking http://localhost:8085/webservice_core_war/webservice/userService/user: Connection refused: connect" type="javax.ws.rs.ProcessingException">javax.ws.rs.ProcessingException: java.net.ConnectException: ConnectException invoking http://localhost:8085/webservice_core_war/webservice/userService/user: Connection refused: connect
+	at com.eis.webservice.wspoint.test.CXFTest.test1(CXFTest.java:13)
+Caused by: java.net.ConnectException: ConnectException invoking http://localhost:8085/webservice_core_war/webservice/userService/user: Connection refused: connect
+	at com.eis.webservice.wspoint.test.CXFTest.test1(CXFTest.java:13)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.eis.webservice.wspoint.test.CXFTest.test1(CXFTest.java:13)
+</error>
+    <system-err><![CDATA[四月 18, 2019 12:01:17 下午 org.apache.cxf.phase.PhaseInterceptorChain doDefaultLogging
+WARNING: Interceptor for {http://localhost:8085/webservice_core_war/webservice/userService/user}WebClient has thrown exception, unwinding now
+org.apache.cxf.interceptor.Fault: Could not send Message.
+	at org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor.handleMessage(MessageSenderInterceptor.java:64)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.jaxrs.client.AbstractClient.doRunInterceptorChain(AbstractClient.java:619)
+	at org.apache.cxf.jaxrs.client.WebClient.doChainedInvocation(WebClient.java:1088)
+	at org.apache.cxf.jaxrs.client.WebClient.doInvoke(WebClient.java:883)
+	at org.apache.cxf.jaxrs.client.WebClient.doInvoke(WebClient.java:854)
+	at org.apache.cxf.jaxrs.client.WebClient.invoke(WebClient.java:320)
+	at org.apache.cxf.jaxrs.client.WebClient.post(WebClient.java:329)
+	at com.eis.webservice.wspoint.test.CXFTest.test1(CXFTest.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: java.net.ConnectException: ConnectException invoking http://localhost:8085/webservice_core_war/webservice/userService/user: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.mapException(HTTPConduit.java:1359)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.close(HTTPConduit.java:1343)
+	at org.apache.cxf.transport.AbstractConduit.close(AbstractConduit.java:56)
+	at org.apache.cxf.transport.http.HTTPConduit.close(HTTPConduit.java:638)
+	at org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor.handleMessage(MessageSenderInterceptor.java:62)
+	... 33 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1316)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1291)
+	at org.apache.cxf.transport.http.URLConnectionHTTPConduit$URLConnectionWrappedOutputStream.setupWrappedStream(URLConnectionHTTPConduit.java:174)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.handleHeadersTrustCaching(HTTPConduit.java:1302)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.onFirstWrite(HTTPConduit.java:1258)
+	at org.apache.cxf.transport.http.URLConnectionHTTPConduit$URLConnectionWrappedOutputStream.onFirstWrite(URLConnectionHTTPConduit.java:201)
+	at org.apache.cxf.io.AbstractWrappedOutputStream.write(AbstractWrappedOutputStream.java:47)
+	at org.apache.cxf.io.AbstractThresholdOutputStream.write(AbstractThresholdOutputStream.java:69)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.close(HTTPConduit.java:1315)
+	... 36 more
+
+]]></system-err>
+  </testcase>
+  <testcase name="test2" classname="com.eis.webservice.wspoint.test.CXFTest" time="1.001">
+    <error message="java.net.ConnectException: ConnectException invoking http://localhost:8085/webservice_core_war/webservice/userService/user?id=11: Connection refused: connect" type="javax.ws.rs.ProcessingException">javax.ws.rs.ProcessingException: java.net.ConnectException: ConnectException invoking http://localhost:8085/webservice_core_war/webservice/userService/user?id=11: Connection refused: connect
+	at com.eis.webservice.wspoint.test.CXFTest.test2(CXFTest.java:19)
+Caused by: java.net.ConnectException: ConnectException invoking http://localhost:8085/webservice_core_war/webservice/userService/user?id=11: Connection refused: connect
+	at com.eis.webservice.wspoint.test.CXFTest.test2(CXFTest.java:19)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.eis.webservice.wspoint.test.CXFTest.test2(CXFTest.java:19)
+</error>
+    <system-err><![CDATA[四月 18, 2019 12:01:18 下午 org.apache.cxf.phase.PhaseInterceptorChain doDefaultLogging
+WARNING: Interceptor for {http://localhost:8085/webservice_core_war/webservice/userService/user}WebClient has thrown exception, unwinding now
+org.apache.cxf.interceptor.Fault: Could not send Message.
+	at org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor.handleMessage(MessageSenderInterceptor.java:64)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.jaxrs.client.AbstractClient.doRunInterceptorChain(AbstractClient.java:619)
+	at org.apache.cxf.jaxrs.client.WebClient.doChainedInvocation(WebClient.java:1088)
+	at org.apache.cxf.jaxrs.client.WebClient.doInvoke(WebClient.java:883)
+	at org.apache.cxf.jaxrs.client.WebClient.doInvoke(WebClient.java:854)
+	at org.apache.cxf.jaxrs.client.WebClient.invoke(WebClient.java:320)
+	at org.apache.cxf.jaxrs.client.WebClient.delete(WebClient.java:370)
+	at com.eis.webservice.wspoint.test.CXFTest.test2(CXFTest.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: java.net.ConnectException: ConnectException invoking http://localhost:8085/webservice_core_war/webservice/userService/user?id=11: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.mapException(HTTPConduit.java:1359)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.close(HTTPConduit.java:1343)
+	at org.apache.cxf.transport.AbstractConduit.close(AbstractConduit.java:56)
+	at org.apache.cxf.transport.http.HTTPConduit.close(HTTPConduit.java:638)
+	at org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor.handleMessage(MessageSenderInterceptor.java:62)
+	... 33 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at org.apache.cxf.transport.http.URLConnectionHTTPConduit$URLConnectionWrappedOutputStream.getResponseCode(URLConnectionHTTPConduit.java:266)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.handleResponseInternal(HTTPConduit.java:1555)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.handleResponse(HTTPConduit.java:1525)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.close(HTTPConduit.java:1330)
+	... 36 more
+
+]]></system-err>
+  </testcase>
+  <testcase name="test3" classname="com.eis.webservice.wspoint.test.CXFTest" time="0.999">
+    <error message="java.net.ConnectException: ConnectException invoking http://localhost:8085/webservice_core_war/webservice/userService/user: Connection refused: connect" type="javax.ws.rs.ProcessingException">javax.ws.rs.ProcessingException: java.net.ConnectException: ConnectException invoking http://localhost:8085/webservice_core_war/webservice/userService/user: Connection refused: connect
+	at com.eis.webservice.wspoint.test.CXFTest.test3(CXFTest.java:25)
+Caused by: java.net.ConnectException: ConnectException invoking http://localhost:8085/webservice_core_war/webservice/userService/user: Connection refused: connect
+	at com.eis.webservice.wspoint.test.CXFTest.test3(CXFTest.java:25)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.eis.webservice.wspoint.test.CXFTest.test3(CXFTest.java:25)
+</error>
+    <system-err><![CDATA[四月 18, 2019 12:01:19 下午 org.apache.cxf.phase.PhaseInterceptorChain doDefaultLogging
+WARNING: Interceptor for {http://localhost:8085/webservice_core_war/webservice/userService/user}WebClient has thrown exception, unwinding now
+org.apache.cxf.interceptor.Fault: Could not send Message.
+	at org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor.handleMessage(MessageSenderInterceptor.java:64)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.jaxrs.client.AbstractClient.doRunInterceptorChain(AbstractClient.java:619)
+	at org.apache.cxf.jaxrs.client.WebClient.doChainedInvocation(WebClient.java:1088)
+	at org.apache.cxf.jaxrs.client.WebClient.doInvoke(WebClient.java:883)
+	at org.apache.cxf.jaxrs.client.WebClient.doInvoke(WebClient.java:854)
+	at org.apache.cxf.jaxrs.client.WebClient.invoke(WebClient.java:320)
+	at org.apache.cxf.jaxrs.client.WebClient.put(WebClient.java:338)
+	at com.eis.webservice.wspoint.test.CXFTest.test3(CXFTest.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: java.net.ConnectException: ConnectException invoking http://localhost:8085/webservice_core_war/webservice/userService/user: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.mapException(HTTPConduit.java:1359)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.close(HTTPConduit.java:1343)
+	at org.apache.cxf.transport.AbstractConduit.close(AbstractConduit.java:56)
+	at org.apache.cxf.transport.http.HTTPConduit.close(HTTPConduit.java:638)
+	at org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor.handleMessage(MessageSenderInterceptor.java:62)
+	... 33 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1316)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1291)
+	at org.apache.cxf.transport.http.URLConnectionHTTPConduit$URLConnectionWrappedOutputStream.setupWrappedStream(URLConnectionHTTPConduit.java:174)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.handleHeadersTrustCaching(HTTPConduit.java:1302)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.onFirstWrite(HTTPConduit.java:1258)
+	at org.apache.cxf.transport.http.URLConnectionHTTPConduit$URLConnectionWrappedOutputStream.onFirstWrite(URLConnectionHTTPConduit.java:201)
+	at org.apache.cxf.io.AbstractWrappedOutputStream.write(AbstractWrappedOutputStream.java:47)
+	at org.apache.cxf.io.AbstractThresholdOutputStream.write(AbstractThresholdOutputStream.java:69)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.close(HTTPConduit.java:1315)
+	... 36 more
+
+]]></system-err>
+  </testcase>
+  <testcase name="test4" classname="com.eis.webservice.wspoint.test.CXFTest" time="1.007">
+    <error message="java.net.ConnectException: ConnectException invoking http://localhost:8085/webservice_core_war/webservice/userService/user: Connection refused: connect" type="javax.ws.rs.ProcessingException">javax.ws.rs.ProcessingException: java.net.ConnectException: ConnectException invoking http://localhost:8085/webservice_core_war/webservice/userService/user: Connection refused: connect
+	at com.eis.webservice.wspoint.test.CXFTest.test4(CXFTest.java:31)
+Caused by: java.net.ConnectException: ConnectException invoking http://localhost:8085/webservice_core_war/webservice/userService/user: Connection refused: connect
+	at com.eis.webservice.wspoint.test.CXFTest.test4(CXFTest.java:31)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.eis.webservice.wspoint.test.CXFTest.test4(CXFTest.java:31)
+</error>
+    <system-err><![CDATA[四月 18, 2019 12:01:20 下午 org.apache.cxf.phase.PhaseInterceptorChain doDefaultLogging
+WARNING: Interceptor for {http://localhost:8085/webservice_core_war/webservice/userService/user}WebClient has thrown exception, unwinding now
+org.apache.cxf.interceptor.Fault: Could not send Message.
+	at org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor.handleMessage(MessageSenderInterceptor.java:64)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)
+	at org.apache.cxf.jaxrs.client.AbstractClient.doRunInterceptorChain(AbstractClient.java:619)
+	at org.apache.cxf.jaxrs.client.WebClient.doChainedInvocation(WebClient.java:1088)
+	at org.apache.cxf.jaxrs.client.WebClient.doInvoke(WebClient.java:883)
+	at org.apache.cxf.jaxrs.client.WebClient.doInvoke(WebClient.java:854)
+	at org.apache.cxf.jaxrs.client.WebClient.invokeAndGetCollection(WebClient.java:513)
+	at org.apache.cxf.jaxrs.client.WebClient.getCollection(WebClient.java:589)
+	at com.eis.webservice.wspoint.test.CXFTest.test4(CXFTest.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: java.net.ConnectException: ConnectException invoking http://localhost:8085/webservice_core_war/webservice/userService/user: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.mapException(HTTPConduit.java:1359)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.close(HTTPConduit.java:1343)
+	at org.apache.cxf.transport.AbstractConduit.close(AbstractConduit.java:56)
+	at org.apache.cxf.transport.http.HTTPConduit.close(HTTPConduit.java:638)
+	at org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor.handleMessage(MessageSenderInterceptor.java:62)
+	... 33 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at org.apache.cxf.transport.http.URLConnectionHTTPConduit$URLConnectionWrappedOutputStream.getResponseCode(URLConnectionHTTPConduit.java:266)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.handleResponseInternal(HTTPConduit.java:1555)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.handleResponse(HTTPConduit.java:1525)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.close(HTTPConduit.java:1330)
+	... 36 more
+
+]]></system-err>
+  </testcase>
+</testsuite>

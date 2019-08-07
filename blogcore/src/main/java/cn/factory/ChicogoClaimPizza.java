@@ -1,0 +1,15 @@
+package cn.factory;
+
+public class ChicogoClaimPizza extends Pizza {
+    public ChicogoClaimPizza(){
+        name = "Chicago Style Clam Pizza";
+        dough = "Extra Thick Crust Dough";
+        sauce = "Plum Tomato Sauce";
+
+        toppings.add("Shredded Mozzarella Cheese");
+        toppings.add("Frozen Clams from Chesapeake Bay");
+    }
+    public void cut() {
+        System.out.println("Cutting the pizza into square slices");
+    }
+}
